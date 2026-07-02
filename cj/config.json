@@ -1,0 +1,120 @@
+{
+  "window": {
+    "width": 1000,
+    "height": 700,
+    "title": "Countryballs Conquest",
+    "background": "#dcebf2",
+    "stats_height": 54
+  },
+  "game": {
+    "fps": 60,
+    "country_count": 6,
+    "opponent_count": 5,
+    "neutral_territory_count": 3,
+    "player_country_index": 0,
+    "player_initial_units_min": 16,
+    "player_initial_units_max": 24,
+    "bot_initial_units_min": 12,
+    "bot_initial_units_max": 22,
+    "initial_units_min": 12,
+    "initial_units_max": 22,
+    "initial_unit_spread_min": 8,
+    "initial_unit_spread_max": 28,
+    "initial_territory_count_min": 4,
+    "initial_territory_count_max": 10,
+    "player_unit_multiplier": 1.0,
+    "neutral_territory_cost": 10,
+    "units_growth_interval_seconds": 1.0,
+    "player_units_per_growth": 1,
+    "bot_units_per_growth": 1,
+    "units_per_growth": 1,
+    "max_units_per_country": 999,
+    "auto_growth_unit_cap": 30,
+    "send_units_per_tick": 1,
+    "send_stream_interval_seconds": 0.08,
+    "unit_group_speed_pixels_per_second": 150,
+    "safe_spawn_gap_min": 12,
+    "safe_spawn_gap_max": 90,
+    "generation_attempts": 3000,
+    "random_seed": null
+  },
+  "controls": {
+    "mode": "drag_stream",
+    "target_snap_enabled": true,
+    "target_snap_radius": 46,
+    "allow_self_target": true,
+    "chain_through_owned_capitals": true
+  },
+  "island": {
+    "vertex_count": 18,
+    "center_x_ratio": 0.5,
+    "center_y_ratio": 0.46,
+    "radius_x_ratio": 0.43,
+    "radius_y_ratio": 0.38,
+    "noise_min": 0.82,
+    "noise_max": 1.08,
+    "fill_color": "#edf3df",
+    "outline_color": "#6d8f77",
+    "coast_shadow_color": "#b8d4dc"
+  },
+  "country": {
+    "initial_radius": 12,
+    "max_radius": 50,
+    "visual_units_for_max_radius": 30,
+    "outline_color": "#252525",
+    "territory_outline_color": "#84927f",
+    "selected_outline_color": "#f0c419",
+    "target_outline_color": "#d62828",
+    "chain_outline_color": "#7c3aed",
+    "player_color": "#3b82f6",
+    "player_flag_enabled": false,
+    "player_flag_primary": "#ffffff",
+    "player_flag_secondary": "#ef4444",
+    "neutral_color": "#d6d3d1",
+    "neutral_colors": [
+      "#ef4444",
+      "#22c55e",
+      "#f97316",
+      "#a855f7",
+      "#14b8a6",
+      "#eab308",
+      "#ec4899",
+      "#64748b",
+      "#84cc16",
+      "#06b6d4",
+      "#f43f5e"
+    ]
+  },
+  "graphics": {
+    "territory_background_blend": 0.72,
+    "capital_shadow_color": "#6b7280",
+    "unit_shadow_color": "#4b5563",
+    "arrow_color": "#172554",
+    "arrow_target_color": "#b91c1c",
+    "chain_arrow_color": "#7c3aed",
+    "arrow_width": 5,
+    "arrow_dash": 10,
+    "float_text_seconds": 0.9,
+    "pulse_seconds": 0.32,
+    "shake_pixels": 5
+  },
+  "ai": {
+    "enabled": true,
+    "mode": "medium",
+    "send_interval_min_seconds": 5,
+    "send_interval_max_seconds": 10,
+    "min_units_to_send": 8,
+    "aggressive_interval_multiplier": 0.65,
+    "aggressive_min_units_bonus": -2
+  },
+  "stats": {
+    "enabled": true,
+    "file": "work/stats.json"
+  },
+  "menu": {
+    "start_screen": true
+  },
+  "debug": {
+    "enabled": true
+  }
+}
